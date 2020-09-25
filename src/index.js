@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/css/style.css';
-
 import './assets/vendor/aos/aos.css';
 import './assets/vendor/bootstrap/css/bootstrap.css';
 import './assets/vendor/icofont/icofont.min.css';
@@ -11,7 +10,6 @@ import './assets/vendor/boxicons/css/boxicons.min.css';
 import './assets/vendor/owl.carousel/assets/owl.carousel.min.css';
 import './assets/vendor/venobox/venobox.css';
 import './assets/vendor/aos/aos.css';
-
 import { BrowserRouter as Router  } from 'react-router-dom';
 
 ReactDOM.render(

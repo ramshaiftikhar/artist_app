@@ -1,15 +1,7 @@
 import React from 'react';
-//import Started from './components/Started';
-// import Header from '../components/Header';
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero';
-import Search from '../components/Search';
-
-
-
-
-
-
+import Navbar from '../components/Navbar/Navbar'
+import Hero from '../components/Hero/Hero';
+import Search from '../components/Search/Search';
 
 
 class Landing extends React.Component {
@@ -17,29 +9,24 @@ class Landing extends React.Component {
 
   render(){
   
-  return (
+        return (
 
-    <div className="landing">
-        
-             {/* Header section*/}
-            {/* <Header/> */}
-            <Navbar/>
+          <div className="landing">
+              
+                  {/* Navigation Bar */}
+                  <Navbar/>
 
-          
-             {/* Hero section*/}
-            <Hero/>
+                
+                  {/* Hero section*/}
+                  <Hero/>
 
 
-            {/*Search Section*/}
-            <Search/>
+                  {/*Search Section*/}
+                  <Search/>
 
-           
+          </div>
 
-    </div>
-
-  
-        
-  );
+        );
   }
 }
 
