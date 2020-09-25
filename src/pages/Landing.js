@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from '../components/Navbar/Navbar'
-import Hero from '../components/Hero/Hero';
-import Search from '../components/Search/Search';
+import Navbar from '../components/Navbar/Navbar.js'
+import Hero from '../components/Hero/Hero.js';
+import Search from '../components/Search/Search.js';
 
 
 class Landing extends React.Component {

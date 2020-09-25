@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from '../Form/Form.js'
-import ArtistInfo from '../ArtistInfo/ArtistInfo.js'
+import ArtistInfo from '../ArtistInfo/ArtistInfo.js';
 import singer from  '../../assets/img/singer.png';
 const API_ID = "codingbootcamp";
 
