@@ -1,15 +1,14 @@
 
 ### Installations required:	
 
-•	Node.js Or NPM (Node Package Manager)
-•	VS Code (Optional) — A code editor.
+1. Node.js Or NPM (Node Package Manager)
+2 .VS Code (Optional) — A code editor.
 
 ### To run:
 
  Open your terminal in the root folder and run this command:
- npm install
- Then type: 
- npm start
+  - npm install
+  - npm start
 
 ### About the App
 
@@ -22,4 +21,5 @@ The application is divided into 2 main sections: pages and components. There are
 ### Bonus Features
 1. Cache - Persist the last entered artist and events across browser reloads/refreshes - Implemented
 2. View Offers feature
+3. Site deployed on Netlify. URL: https://thirsty-tesla-1d66af.netlify.app
 
